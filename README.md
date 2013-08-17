@@ -19,13 +19,13 @@ main menu
 
 config files
 
-![ScreenShot](https://raw.github.com/ReneMuhl/bash-scripting/master/simple_dialog_file_handler/simple_dialog_file_handler_configFiles.png)
+![ScreenShot](https://raw.github.com/ReneMuhl/simple_dialog_file_handler/master/simple_dialog_file_handler_configFiles.png)
 
 
 log files
 
-![ScreenShot](https://raw.github.com/ReneMuhl/bash-scripting/master/simple_dialog_file_handler/simple_dialog_file_handler_logFiles.png)
+![ScreenShot](https://raw.github.com/ReneMuhl/simple_dialog_file_handler/master/simple_dialog_file_handler_logFiles.png)
 
 tail -f logfile example
 
-![ScreenShot](https://raw.github.com/ReneMuhl/bash-scripting/master/simple_dialog_file_handler/simple_dialog_file_handler_Tailbox.png)
+![ScreenShot](https://raw.github.com/ReneMuhl/simple_dialog_file_handler/master/simple_dialog_file_handler_Tailbox.png)
