@@ -14,18 +14,18 @@ The advantage of this script is to look at a central point in all configuration 
 
 main menu
 
-![ScreenShot](https://raw.github.com/ReneMuhl/simple_dialog_file_handler/master/simple_dialog_file_handler_mainMenu.png)
+![ScreenShot](https://raw.github.com/ReneMuhl/simple_dialog_file_handler/master/images/simple_dialog_file_handler_Tailbox.png)
 
 
 config files
 
-![ScreenShot](https://raw.github.com/ReneMuhl/simple_dialog_file_handler/master/simple_dialog_file_handler_configFiles.png)
+![ScreenShot](https://raw.github.com/ReneMuhl/simple_dialog_file_handler/master/images/simple_dialog_file_handler_configFiles.png)
 
 
 log files
 
-![ScreenShot](https://raw.github.com/ReneMuhl/simple_dialog_file_handler/master/simple_dialog_file_handler_logFiles.png)
+![ScreenShot](https://raw.github.com/ReneMuhl/simple_dialog_file_handler/master/images/simple_dialog_file_handler_logFiles.png)
 
 tail -f logfile example
 
-![ScreenShot](https://raw.github.com/ReneMuhl/simple_dialog_file_handler/master/simple_dialog_file_handler_Tailbox.png)
+![ScreenShot](https://raw.github.com/ReneMuhl/simple_dialog_file_handler/master/images/simple_dialog_file_handler_Tailbox.png)
