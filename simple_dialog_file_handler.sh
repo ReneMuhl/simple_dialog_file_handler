@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #=========================================================
-#author: René Muhl
+#author: Rene Muhl
 #from: Leipzig, Germany
-#last change: 10.5.2013
+#last change: 13.8.2013
 #email: ReneM{dot}github{at}gmail{dot}com
 #=========================================================
 #Description:
@@ -92,15 +92,15 @@ menu=config;
         --cancel-label "Quit" \
         --menu "Move using [UP] [DOWN], [Enter]
 to select the files you want to edit it" 17 60 10\
-    1 "/etc/cinder/cinder.conf"\
-    2 "/etc/cinder/api-paste.ini"\
-    3 "/etc/glance/glance-api.conf"\
-    4 "/etc/glance/glance-api-paste.ini"\
-    5 "/etc/glance/glance-registry.conf"\
-    6 "/etc/glance/glance-registry-paste.ini"\
-    7 "/etc/keystone/keystone.conf"\
-    8 "/etc/nova/api-paste.ini"\
-    9 "/etc/nova/nova.conf"\
+    1 "/etc/nova/nova.conf"\
+    2 "/etc/cinder/cinder.conf"\
+    3 "/etc/cinder/api-paste.ini"\
+    4 "/etc/glance/glance-api.conf"\
+    5 "/etc/glance/glance-api-paste.ini"\
+    6 "/etc/glance/glance-registry.conf"\
+    7 "/etc/glance/glance-registry-paste.ini"\
+    8 "/etc/keystone/keystone.conf"\
+    9 "/etc/nova/api-paste.ini"\
     10 "/etc/nova/nova-compute"\
     11 "/etc/openstack-dashboard/local_settings.py"\
     12 "/etc/swift/proxy-server.conf"\
@@ -120,19 +120,19 @@ to select the files you want to edit it" 17 60 10\
     menuitem=`cat $_temp`
     echo "menu=$menuitem"
     case $menuitem in
-        1) vi /etc/cinder/cinder.conf;;
-        2) vi /etc/cinder/api-paste.ini;;
-        3) vi /etc/glance/glance-api.conf;;
-        4) vi /etc/glance/glance-api-paste.ini;;
-        5) vi /etc/glance/glance-registry.conf;;
-    6) vi /etc/glance/glance-registry-paste.ini;;
-    7) vi /etc/keystone/keystone.conf;;
-    8) vi /etc/nova/api-paste.ini;;
-    9) vi /etc/nova/nova.conf;;
-    10) vi /etc/nova/nova-compute.conf;;
+	1) vi /etc/nova/nova.conf;;    
+	2) vi /etc/cinder/cinder.conf;;
+        3) vi /etc/cinder/api-paste.ini;;
+        4) vi /etc/glance/glance-api.conf;;
+        5) vi /etc/glance/glance-api-paste.ini;;
+        6) vi /etc/glance/glance-registry.conf;;
+	7) vi /etc/glance/glance-registry-paste.ini;;
+	8) vi /etc/keystone/keystone.conf;;
+    	9) vi /etc/nova/api-paste.ini;;
+    	10) vi /etc/nova/nova-compute.conf;;
         11) vi /etc/openstack-dashboard/local_settings.py;;
         12) vi /etc/proxy-server.conf;;
-    13) vi /etc/swift/swift/swift.conf;;
+    	13) vi /etc/swift/swift/swift.conf;;
         14) vi /etc/quantum/api-paste.ini;;
         15) vi /etc/quantum/dhcp_agent.ini;;
         16) vi /etc/quantum/l3_agent.ini;;
@@ -245,7 +245,6 @@ while true; do
          log) show_log_files;;
     esac
 done
-
 
 
 
